@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1722568CF9BBE65285812BAA /* Pods_MDSAudioBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B2C5481EFFC90D7A12142 /* Pods_MDSAudioBookTests.framework */; };
+		6EB8583A460359098EC93F2B /* Pods_MDSAudioBook_MDSAudioBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C188CB33B7418CA39E8C7AF /* Pods_MDSAudioBook_MDSAudioBookUITests.framework */; };
+		78A3B0AABA073388520C144E /* Pods_MDSAudioBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E16D44F4A4E37BA8AFF5FE /* Pods_MDSAudioBook.framework */; };
+		F80C773D2A6FE30B00603DED /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C773C2A6FE30B00603DED /* AudioPlayer.swift */; };
+		F80C773F2A6FF55800603DED /* FManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C773E2A6FF55800603DED /* FManager.swift */; };
+		F860823F2A69E86200BD2F34 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860823E2A69E86200BD2F34 /* Track.swift */; };
+		F869CCA02A77F96B00B74D1A /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869CC9F2A77F96B00B74D1A /* extension.swift */; };
+		F86DF71F2A69AF1C006BB584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF71E2A69AF1C006BB584 /* AppDelegate.swift */; };
+		F86DF7212A69AF1D006BB584 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF7202A69AF1D006BB584 /* SceneDelegate.swift */; };
+		F86DF7232A69AF1D006BB584 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF7222A69AF1D006BB584 /* ViewController.swift */; };
+		F86DF7262A69AF1D006BB584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86DF7242A69AF1D006BB584 /* Main.storyboard */; };
+		F86DF72B2A69AF1E006BB584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86DF7292A69AF1E006BB584 /* LaunchScreen.storyboard */; };
+		F86DF7362A69AF1F006BB584 /* MDSAudioBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF7352A69AF1F006BB584 /* MDSAudioBookTests.swift */; };
+		F86DF7402A69AF1F006BB584 /* MDSAudioBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF73F2A69AF1F006BB584 /* MDSAudioBookUITests.swift */; };
+		F86DF7422A69AF1F006BB584 /* MDSAudioBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF7412A69AF1F006BB584 /* MDSAudioBookUITestsLaunchTests.swift */; };
+		F86DF7502A69B1D1006BB584 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF74E2A69B1D1006BB584 /* TableViewCell.swift */; };
+		F86DF7512A69B1D1006BB584 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F86DF74F2A69B1D1006BB584 /* TableViewCell.xib */; };
+		F86DF7532A69B20F006BB584 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF7522A69B20F006BB584 /* K.swift */; };
+		F883B0C52A6FB39C0077609C /* JSONNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883B0C42A6FB39C0077609C /* JSONNetworkManager.swift */; };
+		F883B0C72A6FBCAB0077609C /* dataJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = F883B0C62A6FBCAB0077609C /* dataJSON.json */; };
+		F896AFA72A7013D8006C8774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F896AFA62A7013D8006C8774 /* Assets.xcassets */; };
+		F896AFAC2A7014B4006C8774 /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896AFAB2A7014B4006C8774 /* Download.swift */; };
+		F896AFAE2A7014E6006C8774 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F896AFAD2A7014E6006C8774 /* DownloadService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F86DF7322A69AF1F006BB584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F86DF7132A69AF1C006BB584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F86DF71A2A69AF1C006BB584;
+			remoteInfo = MDSAudioBook;
+		};
+		F86DF73C2A69AF1F006BB584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F86DF7132A69AF1C006BB584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F86DF71A2A69AF1C006BB584;
+			remoteInfo = MDSAudioBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0809BADE9D33914864100318 /* Pods-MDSAudioBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBook.debug.xcconfig"; path = "Target Support Files/Pods-MDSAudioBook/Pods-MDSAudioBook.debug.xcconfig"; sourceTree = "<group>"; };
+		21479512938DEF56CFDB5A92 /* Pods-MDSAudioBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBookTests.release.xcconfig"; path = "Target Support Files/Pods-MDSAudioBookTests/Pods-MDSAudioBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		377B2C5481EFFC90D7A12142 /* Pods_MDSAudioBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSAudioBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C188CB33B7418CA39E8C7AF /* Pods_MDSAudioBook_MDSAudioBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSAudioBook_MDSAudioBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E16D44F4A4E37BA8AFF5FE /* Pods_MDSAudioBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDSAudioBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7088F15EBD6A40DEB5A729AA /* Pods-MDSAudioBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBookTests.debug.xcconfig"; path = "Target Support Files/Pods-MDSAudioBookTests/Pods-MDSAudioBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		729000D2CD4A77BC49816CC5 /* Pods-MDSAudioBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBook.release.xcconfig"; path = "Target Support Files/Pods-MDSAudioBook/Pods-MDSAudioBook.release.xcconfig"; sourceTree = "<group>"; };
+		7C640AB35257774A3B74AA48 /* Pods-MDSAudioBook-MDSAudioBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBook-MDSAudioBookUITests.release.xcconfig"; path = "Target Support Files/Pods-MDSAudioBook-MDSAudioBookUITests/Pods-MDSAudioBook-MDSAudioBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDA1345F77BA27F2D0E312B7 /* Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDSAudioBook-MDSAudioBookUITests/Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F80C773C2A6FE30B00603DED /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		F80C773E2A6FF55800603DED /* FManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FManager.swift; sourceTree = "<group>"; };
+		F860823E2A69E86200BD2F34 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		F869CC9F2A77F96B00B74D1A /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		F86DF71B2A69AF1C006BB584 /* MDSAudioBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSAudioBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86DF71E2A69AF1C006BB584 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F86DF7202A69AF1D006BB584 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F86DF7222A69AF1D006BB584 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F86DF7252A69AF1D006BB584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F86DF72A2A69AF1E006BB584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F86DF72C2A69AF1E006BB584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F86DF7312A69AF1F006BB584 /* MDSAudioBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSAudioBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86DF7352A69AF1F006BB584 /* MDSAudioBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSAudioBookTests.swift; sourceTree = "<group>"; };
+		F86DF73B2A69AF1F006BB584 /* MDSAudioBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MDSAudioBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86DF73F2A69AF1F006BB584 /* MDSAudioBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSAudioBookUITests.swift; sourceTree = "<group>"; };
+		F86DF7412A69AF1F006BB584 /* MDSAudioBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDSAudioBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F86DF74E2A69B1D1006BB584 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F86DF74F2A69B1D1006BB584 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F86DF7522A69B20F006BB584 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		F883B0C42A6FB39C0077609C /* JSONNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONNetworkManager.swift; sourceTree = "<group>"; };
+		F883B0C62A6FBCAB0077609C /* dataJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dataJSON.json; sourceTree = "<group>"; };
+		F896AFA62A7013D8006C8774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F896AFAB2A7014B4006C8774 /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		F896AFAD2A7014E6006C8774 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F86DF7182A69AF1C006BB584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A3B0AABA073388520C144E /* Pods_MDSAudioBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF72E2A69AF1F006BB584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1722568CF9BBE65285812BAA /* Pods_MDSAudioBookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF7382A69AF1F006BB584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB8583A460359098EC93F2B /* Pods_MDSAudioBook_MDSAudioBookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36427BE9A3AEE6E1C56C8728 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56E16D44F4A4E37BA8AFF5FE /* Pods_MDSAudioBook.framework */,
+				4C188CB33B7418CA39E8C7AF /* Pods_MDSAudioBook_MDSAudioBookUITests.framework */,
+				377B2C5481EFFC90D7A12142 /* Pods_MDSAudioBookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C73773DD01EF82DE2948F3F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0809BADE9D33914864100318 /* Pods-MDSAudioBook.debug.xcconfig */,
+				729000D2CD4A77BC49816CC5 /* Pods-MDSAudioBook.release.xcconfig */,
+				CDA1345F77BA27F2D0E312B7 /* Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig */,
+				7C640AB35257774A3B74AA48 /* Pods-MDSAudioBook-MDSAudioBookUITests.release.xcconfig */,
+				7088F15EBD6A40DEB5A729AA /* Pods-MDSAudioBookTests.debug.xcconfig */,
+				21479512938DEF56CFDB5A92 /* Pods-MDSAudioBookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F86DF7122A69AF1C006BB584 = {
+			isa = PBXGroup;
+			children = (
+				F86DF71D2A69AF1C006BB584 /* MDSAudioBook */,
+				F86DF7342A69AF1F006BB584 /* MDSAudioBookTests */,
+				F86DF73E2A69AF1F006BB584 /* MDSAudioBookUITests */,
+				F86DF71C2A69AF1C006BB584 /* Products */,
+				C73773DD01EF82DE2948F3F0 /* Pods */,
+				36427BE9A3AEE6E1C56C8728 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F86DF71C2A69AF1C006BB584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F86DF71B2A69AF1C006BB584 /* MDSAudioBook.app */,
+				F86DF7312A69AF1F006BB584 /* MDSAudioBookTests.xctest */,
+				F86DF73B2A69AF1F006BB584 /* MDSAudioBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F86DF71D2A69AF1C006BB584 /* MDSAudioBook */ = {
+			isa = PBXGroup;
+			children = (
+				F896AFA92A701430006C8774 /* Modal */,
+				F896AFA82A701424006C8774 /* View */,
+				F896AFAA2A70143A006C8774 /* Controller */,
+				F86DF71E2A69AF1C006BB584 /* AppDelegate.swift */,
+				F86DF7202A69AF1D006BB584 /* SceneDelegate.swift */,
+				F86DF72C2A69AF1E006BB584 /* Info.plist */,
+				F896AFA62A7013D8006C8774 /* Assets.xcassets */,
+				F869CC9F2A77F96B00B74D1A /* extension.swift */,
+			);
+			path = MDSAudioBook;
+			sourceTree = "<group>";
+		};
+		F86DF7342A69AF1F006BB584 /* MDSAudioBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F86DF7352A69AF1F006BB584 /* MDSAudioBookTests.swift */,
+			);
+			path = MDSAudioBookTests;
+			sourceTree = "<group>";
+		};
+		F86DF73E2A69AF1F006BB584 /* MDSAudioBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F86DF73F2A69AF1F006BB584 /* MDSAudioBookUITests.swift */,
+				F86DF7412A69AF1F006BB584 /* MDSAudioBookUITestsLaunchTests.swift */,
+			);
+			path = MDSAudioBookUITests;
+			sourceTree = "<group>";
+		};
+		F896AFA82A701424006C8774 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F86DF7242A69AF1D006BB584 /* Main.storyboard */,
+				F86DF74F2A69B1D1006BB584 /* TableViewCell.xib */,
+				F86DF7292A69AF1E006BB584 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F896AFA92A701430006C8774 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				F883B0C62A6FBCAB0077609C /* dataJSON.json */,
+				F883B0C42A6FB39C0077609C /* JSONNetworkManager.swift */,
+				F860823E2A69E86200BD2F34 /* Track.swift */,
+				F80C773C2A6FE30B00603DED /* AudioPlayer.swift */,
+				F80C773E2A6FF55800603DED /* FManager.swift */,
+				F86DF7522A69B20F006BB584 /* K.swift */,
+				F896AFAB2A7014B4006C8774 /* Download.swift */,
+				F896AFAD2A7014E6006C8774 /* DownloadService.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		F896AFAA2A70143A006C8774 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F86DF7222A69AF1D006BB584 /* ViewController.swift */,
+				F86DF74E2A69B1D1006BB584 /* TableViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F86DF71A2A69AF1C006BB584 /* MDSAudioBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86DF7452A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBook" */;
+			buildPhases = (
+				EEB4280D6206C7C43588BE50 /* [CP] Check Pods Manifest.lock */,
+				F86DF7172A69AF1C006BB584 /* Sources */,
+				F86DF7182A69AF1C006BB584 /* Frameworks */,
+				F86DF7192A69AF1C006BB584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDSAudioBook;
+			productName = MDSAudioBook;
+			productReference = F86DF71B2A69AF1C006BB584 /* MDSAudioBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F86DF7302A69AF1F006BB584 /* MDSAudioBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86DF7482A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBookTests" */;
+			buildPhases = (
+				67A882F3A5961E76DE7EABA9 /* [CP] Check Pods Manifest.lock */,
+				F86DF72D2A69AF1F006BB584 /* Sources */,
+				F86DF72E2A69AF1F006BB584 /* Frameworks */,
+				F86DF72F2A69AF1F006BB584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F86DF7332A69AF1F006BB584 /* PBXTargetDependency */,
+			);
+			name = MDSAudioBookTests;
+			productName = MDSAudioBookTests;
+			productReference = F86DF7312A69AF1F006BB584 /* MDSAudioBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F86DF73A2A69AF1F006BB584 /* MDSAudioBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86DF74B2A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBookUITests" */;
+			buildPhases = (
+				FBE3B181001087E9BB162CF6 /* [CP] Check Pods Manifest.lock */,
+				F86DF7372A69AF1F006BB584 /* Sources */,
+				F86DF7382A69AF1F006BB584 /* Frameworks */,
+				F86DF7392A69AF1F006BB584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F86DF73D2A69AF1F006BB584 /* PBXTargetDependency */,
+			);
+			name = MDSAudioBookUITests;
+			productName = MDSAudioBookUITests;
+			productReference = F86DF73B2A69AF1F006BB584 /* MDSAudioBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F86DF7132A69AF1C006BB584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F86DF71A2A69AF1C006BB584 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F86DF7302A69AF1F006BB584 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F86DF71A2A69AF1C006BB584;
+					};
+					F86DF73A2A69AF1F006BB584 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F86DF71A2A69AF1C006BB584;
+					};
+				};
+			};
+			buildConfigurationList = F86DF7162A69AF1C006BB584 /* Build configuration list for PBXProject "MDSAudioBook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F86DF7122A69AF1C006BB584;
+			productRefGroup = F86DF71C2A69AF1C006BB584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F86DF71A2A69AF1C006BB584 /* MDSAudioBook */,
+				F86DF7302A69AF1F006BB584 /* MDSAudioBookTests */,
+				F86DF73A2A69AF1F006BB584 /* MDSAudioBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F86DF7192A69AF1C006BB584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86DF72B2A69AF1E006BB584 /* LaunchScreen.storyboard in Resources */,
+				F883B0C72A6FBCAB0077609C /* dataJSON.json in Resources */,
+				F86DF7512A69B1D1006BB584 /* TableViewCell.xib in Resources */,
+				F86DF7262A69AF1D006BB584 /* Main.storyboard in Resources */,
+				F896AFA72A7013D8006C8774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF72F2A69AF1F006BB584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF7392A69AF1F006BB584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67A882F3A5961E76DE7EABA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDSAudioBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB4280D6206C7C43588BE50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDSAudioBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBE3B181001087E9BB162CF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDSAudioBook-MDSAudioBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F86DF7172A69AF1C006BB584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86DF7232A69AF1D006BB584 /* ViewController.swift in Sources */,
+				F86DF7532A69B20F006BB584 /* K.swift in Sources */,
+				F80C773D2A6FE30B00603DED /* AudioPlayer.swift in Sources */,
+				F869CCA02A77F96B00B74D1A /* extension.swift in Sources */,
+				F883B0C52A6FB39C0077609C /* JSONNetworkManager.swift in Sources */,
+				F80C773F2A6FF55800603DED /* FManager.swift in Sources */,
+				F86DF7502A69B1D1006BB584 /* TableViewCell.swift in Sources */,
+				F860823F2A69E86200BD2F34 /* Track.swift in Sources */,
+				F86DF71F2A69AF1C006BB584 /* AppDelegate.swift in Sources */,
+				F86DF7212A69AF1D006BB584 /* SceneDelegate.swift in Sources */,
+				F896AFAC2A7014B4006C8774 /* Download.swift in Sources */,
+				F896AFAE2A7014E6006C8774 /* DownloadService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF72D2A69AF1F006BB584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86DF7362A69AF1F006BB584 /* MDSAudioBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F86DF7372A69AF1F006BB584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86DF7402A69AF1F006BB584 /* MDSAudioBookUITests.swift in Sources */,
+				F86DF7422A69AF1F006BB584 /* MDSAudioBookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F86DF7332A69AF1F006BB584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F86DF71A2A69AF1C006BB584 /* MDSAudioBook */;
+			targetProxy = F86DF7322A69AF1F006BB584 /* PBXContainerItemProxy */;
+		};
+		F86DF73D2A69AF1F006BB584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F86DF71A2A69AF1C006BB584 /* MDSAudioBook */;
+			targetProxy = F86DF73C2A69AF1F006BB584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F86DF7242A69AF1D006BB584 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86DF7252A69AF1D006BB584 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F86DF7292A69AF1E006BB584 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F86DF72A2A69AF1E006BB584 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F86DF7432A69AF1F006BB584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F86DF7442A69AF1F006BB584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F86DF7462A69AF1F006BB584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0809BADE9D33914864100318 /* Pods-MDSAudioBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MDSAudioBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F86DF7472A69AF1F006BB584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 729000D2CD4A77BC49816CC5 /* Pods-MDSAudioBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MDSAudioBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F86DF7492A69AF1F006BB584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7088F15EBD6A40DEB5A729AA /* Pods-MDSAudioBookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSAudioBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDSAudioBook";
+			};
+			name = Debug;
+		};
+		F86DF74A2A69AF1F006BB584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21479512938DEF56CFDB5A92 /* Pods-MDSAudioBookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MDSAudioBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MDSAudioBook";
+			};
+			name = Release;
+		};
+		F86DF74C2A69AF1F006BB584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA1345F77BA27F2D0E312B7 /* Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDSAudioBook;
+			};
+			name = Debug;
+		};
+		F86DF74D2A69AF1F006BB584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C640AB35257774A3B74AA48 /* Pods-MDSAudioBook-MDSAudioBookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 89W56TC22L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitiliLeikin.MDSAudioBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MDSAudioBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F86DF7162A69AF1C006BB584 /* Build configuration list for PBXProject "MDSAudioBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DF7432A69AF1F006BB584 /* Debug */,
+				F86DF7442A69AF1F006BB584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86DF7452A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DF7462A69AF1F006BB584 /* Debug */,
+				F86DF7472A69AF1F006BB584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86DF7482A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DF7492A69AF1F006BB584 /* Debug */,
+				F86DF74A2A69AF1F006BB584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86DF74B2A69AF1F006BB584 /* Build configuration list for PBXNativeTarget "MDSAudioBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F86DF74C2A69AF1F006BB584 /* Debug */,
+				F86DF74D2A69AF1F006BB584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F86DF7132A69AF1C006BB584 /* Project object */;
+}
