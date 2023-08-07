@@ -9,17 +9,15 @@ import Foundation
 
 
 class DownloadService {
-  //
+
   // MARK: - Variables And Properties
-  //
+
   var activeDownloads: [URL: Download] = [ : ]
-  
-  /// SearchViewController creates downloadsSession
   var downloadsSession: URLSession!
   
-  //
-  // MARK: - Internal Methods
-  //
+  
+  // MARK: - func
+  
   func cancelDownload(_ track: Track) {
       guard let download = activeDownloads[track.previewURL] else {
       return

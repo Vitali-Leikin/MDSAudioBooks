@@ -19,11 +19,6 @@ class ViewController: UIViewController {
         return URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
     }()
     
-    //    lazy var tapRecognizer: UITapGestureRecognizer = {
-    //        var recognizer = UITapGestureRecognizer(target:self, action: #selector(dismissKeyboard))
-    //        return recognizer
-    //    }()
-  
     lazy var tempArray: [Track] = []
     lazy var searchResults: [Track] = []
     let downloadService = DownloadService()
