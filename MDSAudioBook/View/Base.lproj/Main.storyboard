@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Pke-Tf-mu3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="A0f-Dv-mGM">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -18,8 +18,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-F6-dxu">
-                                <rect key="frame" x="0.0" y="159" width="393" height="693"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="0.0" y="100" width="393" height="752"/>
+                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TableViewCell" id="7N3-6S-f7Z" customClass="TableViewCell" customModule="MDSAudioBook" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
@@ -32,7 +32,7 @@
                                 </prototypes>
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Cgb-nJ-Mun">
-                                <rect key="frame" x="0.0" y="103" width="393" height="56"/>
+                                <rect key="frame" x="0.0" y="44" width="393" height="56"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="imy-D9-SYE"/>
@@ -40,7 +40,7 @@
                             </searchBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Cgb-nJ-Mun" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="5cf-Ej-9kH"/>
                             <constraint firstItem="eIG-F6-dxu" firstAttribute="top" secondItem="Cgb-nJ-Mun" secondAttribute="bottom" id="9fM-p0-xMi"/>
@@ -61,13 +61,58 @@
             </objects>
             <point key="canvasLocation" x="869.46564885496184" y="3.5211267605633805"/>
         </scene>
+        <!--Greating View Controller-->
+        <scene sceneID="m6n-cV-fRw">
+            <objects>
+                <viewController storyboardIdentifier="GreatingViewController" id="A0f-Dv-mGM" customClass="GreatingViewController" customModule="MDSAudioBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fmX-8G-SKE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGh-3N-fGf">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MDS AUDIO BOOKS" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RmJ-Um-7xt">
+                                        <rect key="frame" x="94.666666666666686" y="413" width="204" height="26.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="RmJ-Um-7xt" firstAttribute="centerX" secondItem="XGh-3N-fGf" secondAttribute="centerX" id="IaZ-mP-dDU"/>
+                                    <constraint firstItem="RmJ-Um-7xt" firstAttribute="centerY" secondItem="XGh-3N-fGf" secondAttribute="centerY" id="wuk-al-hmk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="aJu-hM-bXf"/>
+                        <color key="backgroundColor" red="0.1843137443" green="0.19607841970000001" blue="0.2470588088" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="XGh-3N-fGf" firstAttribute="leading" secondItem="aJu-hM-bXf" secondAttribute="leading" id="5fF-Gv-8hj"/>
+                            <constraint firstItem="aJu-hM-bXf" firstAttribute="trailing" secondItem="XGh-3N-fGf" secondAttribute="trailing" id="JVd-w7-nTN"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="XGh-3N-fGf" secondAttribute="bottom" constant="-34" id="khE-I6-YxT"/>
+                            <constraint firstItem="XGh-3N-fGf" firstAttribute="top" secondItem="fmX-8G-SKE" secondAttribute="topMargin" constant="-59" id="wOI-yc-PF0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="greatingView" destination="XGh-3N-fGf" id="5hq-JD-EQf"/>
+                        <outlet property="nameLabel" destination="RmJ-Um-7xt" id="Vo2-s5-FPd"/>
+                        <segue destination="Pke-Tf-mu3" kind="presentation" identifier="moveVC" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="6Ou-yD-l4m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnt-el-RZF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1066" y="4"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="RsS-rK-ZaY">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pke-Tf-mu3" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="Pke-Tf-mu3" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="fBY-rE-dFR"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xba-bU-YRL">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -81,8 +126,11 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

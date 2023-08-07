@@ -12,6 +12,7 @@
 		78A3B0AABA073388520C144E /* Pods_MDSAudioBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E16D44F4A4E37BA8AFF5FE /* Pods_MDSAudioBook.framework */; };
 		F80C773D2A6FE30B00603DED /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C773C2A6FE30B00603DED /* AudioPlayer.swift */; };
 		F80C773F2A6FF55800603DED /* FManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80C773E2A6FF55800603DED /* FManager.swift */; };
+		F81D72A32A80FC6F001B95AF /* GreatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81D72A22A80FC6F001B95AF /* GreatingViewController.swift */; };
 		F860823F2A69E86200BD2F34 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F860823E2A69E86200BD2F34 /* Track.swift */; };
 		F869CCA02A77F96B00B74D1A /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869CC9F2A77F96B00B74D1A /* extension.swift */; };
 		F86DF71F2A69AF1C006BB584 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86DF71E2A69AF1C006BB584 /* AppDelegate.swift */; };
@@ -61,6 +62,7 @@
 		CDA1345F77BA27F2D0E312B7 /* Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig"; path = "Target Support Files/Pods-MDSAudioBook-MDSAudioBookUITests/Pods-MDSAudioBook-MDSAudioBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F80C773C2A6FE30B00603DED /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		F80C773E2A6FF55800603DED /* FManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FManager.swift; sourceTree = "<group>"; };
+		F81D72A22A80FC6F001B95AF /* GreatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatingViewController.swift; sourceTree = "<group>"; };
 		F860823E2A69E86200BD2F34 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		F869CC9F2A77F96B00B74D1A /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		F86DF71B2A69AF1C006BB584 /* MDSAudioBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDSAudioBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +222,7 @@
 			children = (
 				F86DF7222A69AF1D006BB584 /* ViewController.swift */,
 				F86DF74E2A69B1D1006BB584 /* TableViewCell.swift */,
+				F81D72A22A80FC6F001B95AF /* GreatingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				F86DF7532A69B20F006BB584 /* K.swift in Sources */,
 				F80C773D2A6FE30B00603DED /* AudioPlayer.swift in Sources */,
 				F869CCA02A77F96B00B74D1A /* extension.swift in Sources */,
+				F81D72A32A80FC6F001B95AF /* GreatingViewController.swift in Sources */,
 				F883B0C52A6FB39C0077609C /* JSONNetworkManager.swift in Sources */,
 				F80C773F2A6FF55800603DED /* FManager.swift in Sources */,
 				F86DF7502A69B1D1006BB584 /* TableViewCell.swift in Sources */,
